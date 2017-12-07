@@ -1,0 +1,76 @@
+body {
+
+}
+
+header {
+
+  background-image: url(images/Background1.jpg);
+  background-repeat:no-repeat;
+  background-size: 1400px auto;
+  background-position: top center;
+  z-index: 1;
+}
+
+.header {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-header {
+
+  color: white;
+  width: auto;
+}
+nav {
+position: absolute;
+right: 50px;
+
+}
+ul.navigatie {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 120%;
+  position:relative;
+  bottom: 50px;
+}
+ul.navigatie li {
+  float:left;
+  width: 200px;
+  height: 40px;
+  background-color: black;
+  opacity: 0.6;
+  line-height: 40 px;
+  text-align:center;
+  font-size: 20 px
+}
+ul.navigatie li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+ul.navigatie li a:hover {
+  background-color: grey;
+  width: 200px;
+  height: 40px;
+}
+
+.col-lg-12 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+img {
+  max-width:250px;
+  max-height:250px;
+}
+.box1 {
+  height: 700px;
+}
