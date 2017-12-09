@@ -6,25 +6,29 @@ header {
 
   background-image: url("https://previews.123rf.com/images/romastudio/romastudio1411/romastudio141100014/33709975-Healthy-food-background-studio-photo-of-different-fruits-and-vegetables-on-old-wooden-table-Stock-Photo.jpg");
   background-repeat:no-repeat;
-  background-size: 1400px auto;
-  background-position: top center;
-  z-index: 1;
+  width: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+  position: relative;
 }
 
-.header {
+/*.header {
   width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  margin-left: 500px;
+
+}*/
 
 .card-header {
 
   color: white;
-  width: auto;
+
 }
 nav {
 position: absolute;
-right: 50px;
+left: 150px;
+top: 100px;
+transform: scale(0.8,0.8);
+
 
 }
 ul.navigatie {
@@ -56,6 +60,53 @@ ul.navigatie li a:hover {
   height: 40px;
 }
 
+@media screen and (max-width: 1267px){
+  ul.navigatie li {
+    width: 190px;
+  }
+}
+@media screen and (max-width: 1217px){
+  ul.navigatie li {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 1167px){
+  ul.navigatie li {
+    width: 170px;
+  }
+}
+@media screen and (max-width: 1118px){
+  ul.navigatie li {
+    width: 160px;
+  }
+}
+@media screen and (max-width: 1069px){
+  ul.navigatie li {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 1018px){
+  ul.navigatie li {
+    width: 140px;
+  }
+}
+@media screen and (max-width: 993px){
+  ul.navigatie li {
+    width: 130px;
+  }
+}
+@media screen and (max-width: 917px){
+  ul.navigatie li {
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 80px;
+
+  }
+  header {
+    height:185px;
+  }
+}
 .col-lg-12 {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -70,7 +121,267 @@ footer {
 img {
   max-width:250px;
   max-height:250px;
+  max-width:100%;
+  max-height: 100%;
+}
+
+h6 {
+  color: grey;
 }
 .box1 {
   height: 700px;
+}
+
+.omliggende_box {
+  height: 210px;
+  width: 1140px;
+
+  width: 100%;
+}
+.omliggende_box1 {
+  height: 210px;
+  width: 1140px;
+  border-width: 0.5px;
+  border-top-color: grey;
+  border-top-style: solid;
+  width: 100%;
+}
+
+.box2 {
+  height: 180px;
+  width: 180px;
+  float: left;
+  background-color: green;
+  border-style: solid;
+  border-width: thin;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.box211 {
+  height: 180px;
+  width: 180px;
+  border-style: solid;
+  border-width: thin;
+  float:right;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.box212 {
+  height: 180px;
+  width: 200px;
+  float: right;
+  /*border-style: solid;
+  border-width: thin;*/
+  margin: 10px;
+  margin-top: 30px;
+}
+
+
+.box21 {
+  height: 180px;
+  width: 200px;
+  float: left;
+  /*border-style: solid;
+  border-width: thin;*/
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.box22 {
+  height: 180px;
+  width: 350px;
+  float: left;
+  /*border-style: solid;
+  border-width: thin;*/
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.box3 {
+  height: 50px;
+  background-color: green;
+  position: relative;
+  left: 200px;
+}
+
+.box4 {
+  height: 100px;
+  width: 500px;
+  background-color: blue;
+  border-style: solid;
+  border-width: medium;
+  margin: 10px;
+}
+
+.paragraph1 {
+  margin-left: 16px;
+}
+
+.text_in_box {
+  margin-left: 10px;
+  font-size: 150%;
+}
+
+.text_in_box2 {
+  font-size: 90%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.image_in_box {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 80px;
+}
+
+.recept_box {
+  margin-top: 0;
+  height: 350px;
+  width: 1100px;
+  position:absolute;
+  z-index: 10;
+}
+
+.text_box_recept {
+  margin-top: 40px;
+  margin-bottom: 0;
+  height: 100px;
+}
+
+.statistieken_box {
+  height: 200px;
+  width: 250px;
+  background-color: grey;
+  position: relative;
+  left: 50px;
+  top: 50px;
+  z-index: 100;
+  opacity: 0.5;
+}
+
+.statistieken_text {
+  color: white;
+  position: relative;
+  top: 20px;
+}
+
+.stars img {
+  display: block;
+  margin: auto;
+  border-style: solid;
+  border-width: thin;
+
+}
+
+.box_ingredients {
+  margin-left: 50px;
+  margin-top: 130px;
+  width: 400px;
+  height: 400px;
+  float: left;
+}
+
+
+.box_bereiding {
+  margin-left: 50px;
+  margin-top: 178px;
+  width: 600px;
+  height: 490px;
+  float: left;
+  border-style: solid;
+  border-width: thin;
+  border-color: #D3D3D3;
+}
+
+.box_bereiding_text {
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.fillwidth {
+    min-width: 100%;
+    height: auto;
+
+}
+
+.laatste img {
+  width: 40%;
+  margin-left:260px;
+  position: relative;
+  top: 50px;
+  opacity: 0.5;
+}
+
+
+
+
+a{text-decoration:none;}
+/*Add the following compatibility code for IE as you can't animate background-size in IE*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){
+	.textOverImage{background-size:cover!important;}
+}
+.textOverImage{
+    position:relative;
+    width:250px;
+    height:300px;
+    float:left;
+    margin:4px;
+    background-size:100%;
+    background-position:center;
+    transition:0.5s;
+    overflow:hidden;
+
+  }
+
+  .textOverImage:hover{
+    background-size:110%;
+  }
+
+.textOverImage:before{
+  position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+  transform:translateY(90%);/*use transform:translateY(100%); to remove footer*/
+    background-color:rgba(0,0,0,0.3);
+    color:#fff;
+    padding:0 8px;
+    content:attr(data-title);
+    transition:0.5s 0.1s;
+    color:#fff;
+    font-weight:bold;
+    font-size:1.5em;
+}
+
+  .textOverImage:after{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    color:#fff;
+    padding:8px;
+    content:attr(data-text);
+    transition:0.5s;
+    padding-top:2em;
+    margin-top:8px;
+    transform:translateY(100%);
+    opacity:0;
+  }
+
+  .textOverImage:hover:after{
+    transform:translateY(0);
+    transition:0.5s 0.1s;
+    opacity:1;
+  }
+.textOverImage:hover:before{
+    transform:translateY(0);
+    padding:8px;
+    background-color:rgba(0,0,0,0.6);
+    transition:0.5s;
 }
